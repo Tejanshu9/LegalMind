@@ -104,16 +104,22 @@ All package versions are specified in `Pipfile`. Key dependencies include:
 
 ### Running Locally with Docker (Recommended)
 
-Start Docker services:
+1. Clone the repository:
 
 ```bash
-docker-compose up
-
-
-### Run the Streamlit App
-
-```bash
+git clone <repo-url>
+cd LegalMind
+```
+2. Start Docker services:
+   ```bash
+   docker-compose up
+   ```
+3.Run the Streamlit App:
+  ```bash
 streamlit run app.py
+```
 
-**Live Demo:** [Click Here](https://your-live-demo-link.com)
+## LIVE DEMO: [Click Here](https://your-live-demo-link.com)
+
+
 
