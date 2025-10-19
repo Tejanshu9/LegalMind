@@ -112,7 +112,7 @@ cd LegalMind/LegalMind
 ```
 2. Start Docker services:
 ```bash
-   docker-compose up
+docker-compose up
 ```
 3.Run the Streamlit App:
 ```bash
