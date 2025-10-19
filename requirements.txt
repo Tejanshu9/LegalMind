@@ -7,3 +7,5 @@ tqdm
 notebook==7.1.2
 ipywidgets
 hyperopt
+python-dotenv
+wordcloud
