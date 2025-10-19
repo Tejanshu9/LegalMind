@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.4.3
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    mem_limit: 4g
+    volumes:
+      - ./es_data:/usr/share/elasticsearch/data
+    networks:
+      - search_net
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./qdrant_storage:/qdrant/storage:z
+    networks:
+      - search_net
+
+  db:
+    image: postgres:15
+    container_name: legalmind_db
+    restart: always
+    environment:
+      POSTGRES_USER: legaluser
+      POSTGRES_PASSWORD: legalpass
+      POSTGRES_DB: legalmind
+    ports:
+      - "5432:5432"
+    volumes:
+      - legalmind_data:/var/lib/postgresql/data
+    networks:
+      - search_net
+
+volumes:
+  legalmind_data:
+
+networks:
+  search_net:
+    driver: bridge

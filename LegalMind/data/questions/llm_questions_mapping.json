@@ -8,7 +8,7 @@
       "How would you annotate this chunk to indicate its empty text and its purpose within a larger dataset?",
       "What metadata fields would be necessary to locate the actual legal text corresponding to BNSS_to_CrPC_268 in a repository?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_132(3)",
@@ -19,7 +19,7 @@
       "Does the 'metadata' object contain any keys, and if so, what are they?",
       "What components make up the 'chunk_id' value 'BSA_to_IEA_132(3)', and what might they signify about the source and section?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_197",
@@ -30,7 +30,7 @@
       "Which keys are present inside the \"metadata\" object of this chunk?",
       "What is the current value of the \"text\" property in this chunk's payload?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_115\n(2)",
@@ -41,7 +41,7 @@
       "What is the content of the 'metadata' field in this chunk?",
       "In the chunk_id 'BNS_to_IPC_115 (2)', what is the numeric component and what might the '(2)' denote in a labeling scheme?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_527",
@@ -52,7 +52,7 @@
       "What does the \"metadata\" field contain in this chunk (is it empty or populated)?",
       "How many keys are present in the \"metadata\" field of this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_509",
@@ -63,7 +63,7 @@
       "What is the official title of the document represented by BNSS_to_CrPC_509 and its jurisdiction?",
       "Do the metadata fields in BNSS_to_CrPC_509 specify any act year, country, or statutory source that should inform the questions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_358",
@@ -74,7 +74,7 @@
       "What are the values of the 'metadata' field in the chunk BNS_to_IPC_358?",
       "Are there any section numbers, law titles, or abbreviations present in the 'text' field of chunk BNS_to_IPC_358?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_116",
@@ -85,7 +85,7 @@
       "Describe a workflow to populate BNSS_to_CrPC_116 from an external legal corpus so that five self-contained, content-based questions can be produced.",
       "Propose a minimal schema extension or data model that would allow BNSS_to_CrPC_116 to be used for generating precise questions even if the initial 'text' is blank."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_65",
@@ -96,7 +96,7 @@
       "What metadata fields would you expect to accompany an empty chunk to enable precise question generation about BSA_to_IEA_65?",
       "How would you verify, once the text is provided, that questions generated for BSA_to_IEA_65 correctly map to the linked BSA and IEA provisions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_50",
@@ -107,7 +107,7 @@
       "What might the suffix \"_50\" denote in the chunk_id BNS_to_IPC_50 with respect to cross-reference mappings?",
       "What minimum metadata would you require from the chunk to determine its legal scope, given only the chunk_id?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(26)",
@@ -118,7 +118,7 @@
       "What is the content of the metadata field for this chunk?",
       "What are the top-level keys in this chunk's JSON object?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_123",
@@ -129,7 +129,7 @@
       "If you were to populate the text for BNS_to_IPC_123, what elements would you include to establish clear cross-references (e.g., BNS identifiers, IPC identifiers, notes)?",
       "What edition or versioning information would typically accompany a crosswalk like BNS_to_IPC_123 in a legal database?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_148",
@@ -140,7 +140,7 @@
       "What is the content of the metadata field for chunk_id BSA_to_IEA_148?",
       "What keys exist within the metadata object for chunk_id BSA_to_IEA_148?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_75",
@@ -151,7 +151,7 @@
       "What does the 'metadata' field contain for this chunk?",
       "How many top-level keys are present in this chunk's JSON structure?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_121 (2)",
@@ -162,7 +162,7 @@
       "What is the content of the metadata field in this chunk?",
       "Given that the text field is empty, what implications does that have for generating law-questions directly from this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_306",
@@ -173,7 +173,7 @@
       "What does the 'metadata' field contain for this chunk (e.g., its keys or lack thereof)?",
       "List the top-level keys present in this chunk's JSON object."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_181",
@@ -184,7 +184,7 @@
       "What metadata would clarify the scope and applicability of BNSS_to_CrPC_181 in a legal database?",
       "Which authorities or sources would you consult to interpret BNSS_to_CrPC_181 when the text is not provided?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_172",
@@ -195,7 +195,7 @@
       "What is the value of the 'metadata' field for this chunk?",
       "What are the top-level fields present in this chunk's JSON object?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_361",
@@ -206,7 +206,7 @@
       "Is the 'metadata' object populated with entries for this chunk?",
       "What are the top-level keys of this JSON chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_280",
@@ -217,7 +217,7 @@
       "What is the value of the 'metadata' field for this chunk?",
       "What is the exact value of the 'chunk_id' field in this JSON?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_77",
@@ -228,7 +228,7 @@
       "Are there cross-references to other statutes within BNSS_to_CrPC_77?",
       "What is the recommended approach to handle an empty 'text' field in BNSS_to_CrPC_77 when generating questions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_138",
@@ -239,7 +239,7 @@
       "When the 'text' field is empty, what steps should a legal question generator take to create five questions for chunk BSA_to_IEA_138?",
       "If you must still provide five questions for BSA_to_IEA_138, propose a set of five question templates that do not rely on the chunk's substantive text."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_73",
@@ -250,7 +250,7 @@
       "Is there an enactment date, citation, or regulatory authority linked to BNSS_to_CrPC_73?",
       "What is the intended jurisdictional scope of BNSS_to_CrPC_73\u2014 nationwide CrPC changes, or specific to a jurisdiction?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_180",
@@ -261,7 +261,7 @@
       "Does the metadata object for this chunk contain any keys, and if so, what are they?",
       "What could the identifier 'BNS_to_IPC_180' suggest about the intended legal mapping or cross-reference for this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_125 (b)",
@@ -272,7 +272,7 @@
       "Which law title would you consult to understand IPC Section 125(b)?",
       "What does the empty \"text\" field imply about the availability of case content for analysis?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_452",
@@ -283,7 +283,7 @@
       "What is the structure and content of the \"metadata\" field in this chunk?",
       "Does this chunk contain any substantive content such as sections, titles, or abbreviations?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_2(1) (c)",
@@ -294,7 +294,7 @@
       "Does BSA_to_IEA_2(1) (c) include defined terms, and how are they interpreted within the section?",
       "What is the effective date of BSA_to_IEA_2(1) (c) and are there any transitional provisions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(29)",
@@ -305,7 +305,7 @@
       "How many top-level keys exist in the JSON object for chunk BNS_to_IPC_2(29), and what are their names?",
       "If you were to populate the 'text' field with IPC-related content for BNS_to_IPC_2(29), which IPC section would you reference first and why?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_443",
@@ -316,7 +316,7 @@
       "What is the value of the metadata field in this chunk?",
       "Does the chunk contain any substantive legal text to analyze, given that the text field is empty?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_129",
@@ -327,7 +327,7 @@
       "Does the metadata object in this chunk contain any keys?",
       "Which field would you check first if you needed to add actual legal text to BNSS_to_CrPC_129?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_28",
@@ -338,7 +338,7 @@
       "What remedies or outcomes does BNSS_to_CrPC_28 specify for the parties involved?",
       "Does BNSS_to_CrPC_28 reference any other sections or statutes, and if so, which ones?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_324 (1)",
@@ -349,7 +349,7 @@
       "What penalties, fines, or remedies are specified for violations in BNS_to_IPC_324 (1)?",
       "Are there any exemptions, defenses, or exceptions listed in BNS_to_IPC_324 (1)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_341 (2)",
@@ -360,7 +360,7 @@
       "What is the value of the doc_id field in the chunk's metadata?",
       "What are the top-level keys present in this chunk's JSON structure besides the chunk_id field?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_166",
@@ -371,7 +371,7 @@
       "What does the \"metadata\" field contain for this chunk?",
       "Based on the identifier \"BSA_to_IEA_166\", what two acronyms appear to be connected, and what might this indicate about the chunk's intended mapping or relationship?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_50",
@@ -382,7 +382,7 @@
       "What metadata fields would be needed alongside BNSS_to_CrPC_50 to generate precise, text-based questions (e.g., jurisdiction, edition, section references)?",
       "What concrete steps would you take to populate BNSS_to_CrPC_50 with content so that five uniquely tied questions can be created?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_3(4)",
@@ -393,7 +393,7 @@
       "If the chunk were to contain substantive text, which part would you expect to reflect a cross-reference between BNS and IPC?",
       "Aside from the text content, which fields in the provided JSON structure uniquely identify this chunk, and what values do they hold currently?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_153",
@@ -404,7 +404,7 @@
       "What information is stored inside the 'metadata' object for BNSS_to_CrPC_153?",
       "If a section number or abbreviation were present in the chunk, which fields in this JSON structure would be expected to contain it?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_244",
@@ -415,7 +415,7 @@
       "Which metadata fields present in this chunk would you need to preserve when importing into a legal knowledge base (e.g., doc_id, text, metadata)?",
       "When future text is added to BNS_to_IPC_244, what is the recommended format to annotate any section numbers or law titles to maintain IPC citation standards?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_294",
@@ -426,7 +426,7 @@
       "Which fields in the metadata object would you expect to be populated to provide jurisdictional or source details?",
       "If you later receive non-empty content for the text field, what immediate steps would you take to generate five distinct, self-contained questions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_374",
@@ -437,7 +437,7 @@
       "Given the chunk_id BNSS_to_CrPC_374, which legal code is it likely intended to reference, and what could be the relation between BNSS and CrPC?",
       "What practical steps would you take to obtain or verify the CrPC provisions that BNSS_to_CrPC_374 is supposed to map to?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_324 (5)",
@@ -448,7 +448,7 @@
       "What categories of punishment are associated with IPC Section 324?",
       "Which jurisdiction's law contains IPC Section 324?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_58",
@@ -459,7 +459,7 @@
       "Is the metadata object associated with BNSS_to_CrPC_58 empty?",
       "What is the overall status of BNSS_to_CrPC_58 as a source for legal provisions (substantive content present or absent)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_9",
@@ -470,7 +470,7 @@
       "What is the value of the 'metadata' field in this chunk?",
       "If the 'text' field were populated with legal content, which identifiers (section numbers, law titles, or abbreviations) would you expect to be used to tie the content to a specific statute or framework?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_517",
@@ -481,7 +481,7 @@
       "If you were to populate BNSS_to_CrPC_517, what would be the minimal set of elements required to support automated lookups from BNSS identifiers to CrPC sections?",
       "What validation rules would you implement to ensure future content added to BNSS_to_CrPC_517 remains consistent with CrPC section numbering and BNSS identifiers?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_339",
@@ -492,7 +492,7 @@
       "Does BNSS_to_CrPC_339 have any non-empty metadata entries?",
       "Is there any substantive legal content available in the BNSS_to_CrPC_339 chunk's text?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_35",
@@ -503,7 +503,7 @@
       "Are there any cross-references to other statutes or regulations in chunk BSA_to_IEA_35? If yes, specify them.",
       "What is the stated effective date or enforcement date within chunk BSA_to_IEA_35?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_469",
@@ -514,7 +514,7 @@
       "What is the structure and content of the \"metadata\" field in this JSON chunk?",
       "If you needed to reference this chunk in a legal database, which identifier from the JSON would you use as the primary key?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_191",
@@ -525,7 +525,7 @@
       "If you were to populate the BNSS_to_CrPC_191 chunk with statutory text, what convention would you use to insert section numbers or abbreviations to tie to specific provisions?",
       "What additional metadata would you include with BNSS_to_CrPC_191 to ensure future question generation can be accurately aligned with the intended legal topic?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_307",
@@ -536,7 +536,7 @@
       "What types of supplementary data would you expect BNSS_to_CrPC_307 to include to ensure accurate cross-referencing (e.g., definitions, equivalence rules, notes)?",
       "What potential ambiguity should a database manager watch for when implementing BNSS_to_CrPC_307 across multiple jurisdictions or editions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_324 (2)",
@@ -547,7 +547,7 @@
       "What keys are present at the top level of the \"metadata\" object in this chunk?",
       "Is the \"metadata\" object non-empty in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_516",
@@ -558,7 +558,7 @@
       "What is the value of the 'metadata' field for this chunk?",
       "Does the 'text' content of this chunk include any section numbers, law titles, or abbreviations?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_62",
@@ -569,7 +569,7 @@
       "Does chunk BSA_to_IEA_62 reference other statutes or regulations, and if so, which ones?",
       "Does chunk BSA_to_IEA_62 specify any effective dates, deadlines, or compliance timelines? If so, what are they?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_2(1)(u)",
@@ -580,7 +580,7 @@
       "What is the content of the \"metadata\" field in the chunk?",
       "Which legal code abbreviation appears in the \"chunk_id\" (e.g., CrPC)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_118",
@@ -591,7 +591,7 @@
       "What does the 'metadata' field contain for BNSS_to_CrPC_118?",
       "What is the status noted for the 'text' field in BNSS_to_CrPC_118 (empty vs populated)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_331 (7)",
@@ -602,7 +602,7 @@
       "What cross-references to other sections or acts would you expect to accompany an IPC cross-reference chunk labeled BNS_to_IPC_331 (7)?",
       "If you were to validate the alignment of this chunk with the IPC, what verification steps would you perform?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_324 (6)",
@@ -613,7 +613,7 @@
       "What is the content of the metadata field for this chunk?",
       "List the top-level fields present in this chunk's JSON object."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_287",
@@ -624,7 +624,7 @@
       "Are there cross-references to other statutes in BNSS_to_CrPC_287, and which sections are cited?",
       "What is the stated effective date or commencement clause in BNSS_to_CrPC_287 for the changes?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_422",
@@ -635,7 +635,7 @@
       "If substantive content were added, what CrPC-style heading or structure would you use to mirror a CrPC Section 422 entry?",
       "Propose a five-field metadata schema that would make this BNSS_to_CrPC_422 chunk robust for automated question generation and cross-referencing with CrPC 422"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_87",
@@ -646,7 +646,7 @@
       "Suggest a minimal schema change that would allow producing five precise questions from the \"BNS_to_IPC_87\" chunk even if the current text remains empty.",
       "What additional metadata fields would be most helpful to accompany \"BNS_to_IPC_87\" to ensure future question generation is accurate and tied to actual law texts?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_310 (1)",
@@ -657,7 +657,7 @@
       "What is the numeric index shown in parentheses at the end of the chunk_id?",
       "Does the 'text' field for this chunk contain any substantive content?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_6",
@@ -668,7 +668,7 @@
       "What mechanism does BNSS_to_CrPC_6 prescribe for appeals within the CrPC system?",
       "What transitional provisions does BNSS_to_CrPC_6 set for cases already filed before its effective date under the CrPC regime?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_2(1)(p)",
@@ -679,7 +679,7 @@
       "If BNSS_to_CrPC_2(1)(p) designates a cross-reference, what two documents are most likely connected?",
       "What metadata would you extract from BNSS_to_CrPC_2(1)(p) to support legal search and retrieval?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_226",
@@ -690,7 +690,7 @@
       "What metadata fields are present for BNSS_to_CrPC_226 in the provided JSON?",
       "If the text field is empty, what approach should you take to generate questions that are still aligned with this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_326 (d)",
@@ -701,7 +701,7 @@
       "What is the structure and content of the 'metadata' field in this chunk?",
       "Does the 'text' field include any substantive legal text?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_317 (4)",
@@ -712,7 +712,7 @@
       "What is the value of the metadata field for this chunk?",
       "What number is shown inside the parentheses in the chunk_id 'BNS_to_IPC_317 (4)'?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_265",
@@ -723,7 +723,7 @@
       "What is contained in the metadata field for this chunk?",
       "How many top-level fields are present in this chunk's JSON object, and what are their names?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_460",
@@ -734,7 +734,7 @@
       "If BNSS_to_CrPC_460 is intended to cross-reference BNSS provisions to CrPC sections, what types of CrPC references would you expect to appear (e.g., section numbers, powers, procedures) when content is added?",
       "Outline a plan to populate BNSS_to_CrPC_460 with five self-contained questions that uniquely map to future content under this cross-reference label."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(15)",
@@ -745,7 +745,7 @@
       "Does the 'metadata' field contain any keys for this chunk?",
       "Is there any substantive law content present in the 'text' field of this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_284",
@@ -756,7 +756,7 @@
       "What is the doc_id value for this chunk, and how might it be used in citation or source tracking?",
       "What keys exist within the metadata object, and how would you interpret them for future extraction of section numbers or law titles if present?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_45",
@@ -767,7 +767,7 @@
       "Describe the structure and content of the metadata field in this chunk.",
       "Does the text field contain substantive legislative content, or is it empty in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_115",
@@ -778,7 +778,7 @@
       "Does the metadata object contain any entries for this chunk?",
       "If the text is empty, what types of questions could still be formed that reference the chunk_id 'BSA_to_IEA_115'?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_4",
@@ -789,7 +789,7 @@
       "Does the metadata object contain any keys, and if not, what is its content?",
       "How many top-level keys are present in this chunk's JSON object, and what are they?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_191 (3)",
@@ -800,7 +800,7 @@
       "In the chunk_id BNS_to_IPC_191 (3), which IPC section number is indicated?",
       "The prefix BNS_to_IPC in the chunk_id implies a crosswalk between which two identifiers?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_61",
@@ -811,7 +811,7 @@
       "What does the metadata field contain for BNSS_to_CrPC_61?",
       "Which abbreviation in BNSS_to_CrPC_61 signals a criminal procedure code framework?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_151",
@@ -822,7 +822,7 @@
       "If you were to locate the original text referenced by BNSS_to_CrPC_151, which official Code would you consult and what numeric section would you look up?",
       "What metadata or clarifications would help uniquely identify BNSS_to_CrPC_151 in a larger legal corpus?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_371",
@@ -833,7 +833,7 @@
       "What data type is the 'metadata' field in BNSS_to_CrPC_371?",
       "List all top-level keys present in the BNSS_to_CrPC_371 chunk payload."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_128",
@@ -844,7 +844,7 @@
       "What is the value of the metadata field in the input chunk?",
       "How many entries must the llm_questions array contain for this chunk according to the task specification?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_331 (4)",
@@ -855,7 +855,7 @@
       "What missing fields in this chunk's JSON would you need to populate to perform QG on a statutory provision?",
       "If you had to locate the full IPC text corresponding to this chunk, what search terms would you use?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_14",
@@ -866,7 +866,7 @@
       "Does BNSS_to_CrPC_14 specify any rights, notices, or safeguards when BNSS interacts with CrPC procedures, and if so, what are they?",
       "Which jurisdictional authority or administrative body is identified in BNSS_to_CrPC_14 as responsible for enforcing or implementing BNSS within the CrPC context?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_142",
@@ -877,7 +877,7 @@
       "What is the content of the metadata field for this chunk?",
       "Based on the current JSON, which fields determine whether there is actual legal text to analyze?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_135",
@@ -888,7 +888,7 @@
       "What is the content of the metadata field in the supplied chunk?",
       "How many top-level keys are present in the supplied chunk's JSON object?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_331 (3)",
@@ -899,7 +899,7 @@
       "What is the value of the metadata field for this chunk?",
       "What is the character count of the text field in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_41(2)",
@@ -910,7 +910,7 @@
       "What keys are present inside the metadata object for this chunk?",
       "Given the identifier \"BSA_to_IEA_41(2)\", does the chunk contain any substantive legal text in the text field?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_190",
@@ -921,7 +921,7 @@
       "Is the 'metadata' field present, and is it an empty object?",
       "Based on the chunk_id BNSS_to_CrPC_190, what does the name suggest about a linkage between BNSS and CrPC 190 in this dataset?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_273",
@@ -932,7 +932,7 @@
       "Q4: What keys exist inside the 'metadata' object for this chunk?",
       "Q5: If the 'text' field were populated with IPC content, what kinds of questions should be generated (mention section numbers, law titles, or abbreviations)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_63",
@@ -943,7 +943,7 @@
       "Are there any external sources, glossaries, or schemas that define the content or structure of BNSS_to_CrPC_63 so questions can be anchored to actual sections?",
       "If the content is missing, is it acceptable to create content-based questions by hypothesizing typical BNSS-to-CrPC mappings, or should we request a new chunk with substantive text?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_190",
@@ -954,7 +954,7 @@
       "Does the 'metadata' object contain any key-value pairs for this chunk?",
       "If you were to add substantive content, which field is intended to hold the legal text in this chunk's JSON structure?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_378",
@@ -965,7 +965,7 @@
       "Given the current chunk contains no text, what metadata would be essential to restore its usefulness (e.g., section numbers, titles, jurisdiction)?",
       "Propose a descriptive title for BNSS_to_CrPC_378 to reflect its likely content and improve searchability."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_217",
@@ -976,7 +976,7 @@
       "What legal concepts would you expect in BNS_to_IPC_217 given its chunk identifier?",
       "Are there any references to other laws within BNS_to_IPC_217; if so, what are they?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_211",
@@ -987,7 +987,7 @@
       "What metadata fields would you expect alongside a BNS_to_IPC_211 entry to make the cross-reference precise (e.g., section titles, abbreviations, or cross-reference notes)?",
       "What practical steps should a reviewer take when the chunk BNS_to_IPC_211 contains no substantive text to ensure the intended IPC 211 linkage is correctly identified?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_183",
@@ -998,7 +998,7 @@
       "What keys are present at the top level of the BNSS_to_CrPC_183 chunk?",
       "Is there any substantive legal content in BNSS_to_CrPC_183's text field?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_60",
@@ -1009,7 +1009,7 @@
       "Which parties are affected by the amendments in BSA_to_IEA_60, and how is their legal status altered under the IEA regime?",
       "Is there a defined term or glossary entry in the BSA_to_IEA_60 chunk that clarifies the scope of the abbreviations BSA and IEA for later sections?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_14",
@@ -1020,7 +1020,7 @@
       "What is the role of the chunk_id label in ensuring that each of the five questions focuses specifically on BSA_to_IEA_14 when the 'text' is blank?",
       "What verification steps would you perform to ensure the five questions produced for BSA_to_IEA_14 do not introduce content not present in the chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_2(1)(e)",
@@ -1031,7 +1031,7 @@
       "Are there cross-references from CrPC 2(1)(e) to other provisions that the BNSS_to_CrPC_2(1)(e) chunk would connect with?",
       "What jurisdictional source (e.g., country or statute) is implied by the BNSS_to_CrPC_2(1)(e) chunk identifier when interpreting CrPC 2(1)(e)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_106",
@@ -1042,7 +1042,7 @@
       "What is the value and data type of the metadata field in this chunk?",
       "What are the top-level keys present in this chunk's JSON object?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_463",
@@ -1053,7 +1053,7 @@
       "What is the value of the metadata field in BNSS_to_CrPC_463?",
       "What is the exact chunk_id value in BNSS_to_CrPC_463?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_130",
@@ -1064,7 +1064,7 @@
       "Is the \"metadata\" field present, and does it contain any keys?",
       "What is the exact content of the \"metadata\" object in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_122",
@@ -1075,7 +1075,7 @@
       "What metadata fields are present for this chunk, and what are their values?",
       "What is the value of the 'text' field in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(12)",
@@ -1086,7 +1086,7 @@
       "What legislative drafting purpose does a BNS_to_IPC cross-reference serve in a statute?",
       "What ambiguities should be clarified when interpreting a BNS_to_IPC cross-reference in a legal text?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_309 (4)",
@@ -1097,7 +1097,7 @@
       "What is the value of the 'text' field for this chunk?",
       "What is the value of the 'metadata' field for this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_40",
@@ -1108,7 +1108,7 @@
       "What does the 'metadata' field contain for BNSS_to_CrPC_40?",
       "Given that the 'text' field is empty, what approach would you take to generate five content-specific questions tied to this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_10",
@@ -1119,7 +1119,7 @@
       "What is the exact value of the \"chunk_id\" for this data entry?",
       "How many top-level keys are present in this chunk's JSON object (e.g., chunk_id, doc_id, text, metadata)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_126 (2)",
@@ -1130,7 +1130,7 @@
       "What metadata keys accompany the chunk's data in the provided JSON?",
       "The chunk_id includes 'IPC'; which legal code is typically abbreviated as IPC in Indian law contexts?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_319",
@@ -1141,7 +1141,7 @@
       "Which fields are present in the chunk's JSON structure and which are currently empty (doc_id, text, metadata)?",
       "What content should be supplied in the 'text' field to enable five precise questions referencing the Code of Criminal Procedure (CrPC) under BNSS_to_CrPC_319?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(6)",
@@ -1152,7 +1152,7 @@
       "What metadata or surrounding context should accompany the empty text to make subsequent question generation precise (e.g., source documents, date, jurisdiction, or note about crosswalk)?",
       "How would you structure five distinct questions to cover potential content that would normally be found in a BNS_to_IPC_2(6) cross-reference, given no content is currently present?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_38",
@@ -1163,7 +1163,7 @@
       "Is the 'text' field populated for chunk 'BSA_to_IEA_38'?",
       "What is the identifier used to reference this legal text fragment in the provided dataset?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_348",
@@ -1174,7 +1174,7 @@
       "What is the content or structure of the \"metadata\" field in this chunk?",
       "How many strings are present in the \"llm_questions\" array for this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_179",
@@ -1185,7 +1185,7 @@
       "Is there any content inside the 'metadata' object for this chunk, and if so, what does it contain?",
       "According to the prompt, how many questions must be produced for this chunk in the 'llm_questions' array?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_370",
@@ -1196,7 +1196,7 @@
       "Which formatting elements (e.g., section numbers, act titles, abbreviations) should BNSS_to_CrPC_370 adhere to when populated, to align with CrPC conventions?",
       "Describe a minimal QA plan you would execute for BNSS_to_CrPC_370 to verify proper section-numbering, cross-references, and linkage to CrPC terminology once the text is provided."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_196",
@@ -1207,7 +1207,7 @@
       "Does the chunk mention any defenses, exceptions, or mitigating factors related to IPC Section 196?",
       "Are there any cross-references to other IPC sections or to the CrPC within this BNS_to_IPC_196 chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_1(5)",
@@ -1218,7 +1218,7 @@
       "What data type is the value of the \\\"metadata\\\" field in the chunk?",
       "How many keys are present inside the \\\"metadata\\\" object of the chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_187",
@@ -1229,7 +1229,7 @@
       "What is the stated effective or commencement date in BNS_to_IPC_187, if any?",
       "Does BNS_to_IPC_187 cross-reference other statutes or codes; name any such referenced authorities?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_242",
@@ -1240,7 +1240,7 @@
       "In BNSS_to_CrPC_242, are CrPC citations expected to appear as CrPC \u00a7[number] or in another format?",
       "What is the intended next step to populate BNSS_to_CrPC_242 since the current text field is empty?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_310 (4)",
@@ -1251,7 +1251,7 @@
       "What is the value of the 'metadata' field in this chunk?",
       "In the chunk_id 'BNS_to_IPC_310 (4)', what number is inside the parentheses?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_144",
@@ -1262,7 +1262,7 @@
       "What does the metadata field contain for this chunk?",
       "Does the text field include any section numbers, law titles, or abbreviations?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_451",
@@ -1273,7 +1273,7 @@
       "Based on the chunk_id BNSS_to_CrPC_451, what domain or mapping does this chunk appear to represent?",
       "If substantive content were added to BNSS_to_CrPC_451, which CrPC-related topics would you prioritize to maximize clarity and specificity?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_47",
@@ -1284,7 +1284,7 @@
       "What steps would you take to recover or reconstruct the missing text for BNSS_to_CrPC_47 from a legislative database?",
       "Which fields in this chunk indicate that no document text or identifier has been attached, and what are their current values?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_192",
@@ -1295,7 +1295,7 @@
       "What jurisdiction or legal framework is implied by BNSS_to_CrPC_192?",
       "Are there any procedural topics (such as arrests, bail, or evidence) that BNSS_to_CrPC_192 is designed to address?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_88",
@@ -1306,7 +1306,7 @@
       "Q4: If you later populate BNSS_to_CrPC_88 with CrPC-related text, which citation style (e.g., CrPC \u00a7 X) would you adopt for the questions?",
       "Q5: What would be an appropriate rubric to assess whether BNSS_to_CrPC_88's generated questions are unique and non-redundant once the text is present?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_63",
@@ -1317,7 +1317,7 @@
       "What is the current value of the text field in this chunk's JSON?",
       "What is the current value of the metadata field in this chunk's JSON?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_24",
@@ -1328,7 +1328,7 @@
       "What metadata fields besides the text would help uniquely identify the intended legal provisions for BNS_to_IPC_24?",
       "Outline a five-step workflow to generate five precise questions for BNS_to_IPC_24 when the text is currently empty, emphasizing source verification and cross-referencing with IPC 24."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(5)",
@@ -1339,7 +1339,7 @@
       "What data structure type is the \"metadata\" field in this chunk?",
       "How many fields are present at the top level of this chunk's JSON object, and what are their names?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_43",
@@ -1350,7 +1350,7 @@
       "What potential ambiguities arise from a missing text in BSA_to_IEA_43 regarding its jurisdictional scope, and how could you resolve them with standard legal references?",
       "Describe a validation rule to ensure that generated questions for BSA_to_IEA_43 remain uniquely scoped to this chunk_id and do not reference other chunks."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_247",
@@ -1361,7 +1361,7 @@
       "What is the value and type of the 'metadata' field in this chunk?",
       "How many top-level fields are present in this chunk's JSON object, and what are their names?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_494",
@@ -1372,7 +1372,7 @@
       "What is the value of the \"doc_id\" field in this chunk's JSON metadata?",
       "What is the exact string used in the top-level \"chunk_id\" field of this input?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_438",
@@ -1383,7 +1383,7 @@
       "Which two legal frameworks are signaled for cross-reference in BNSS_to_CrPC_438?",
       "If substantive content were added to the text field, name three topics you would expect in a BNSS_to_CrPC cross-reference between BNSS and CrPC."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_34",
@@ -1394,7 +1394,7 @@
       "What is the value of the metadata field in the provided chunk?",
       "What are the top-level keys present in this chunk's JSON object?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_19",
@@ -1405,7 +1405,7 @@
       "Are there any section numbers, law titles, or abbreviations present within the BSA_to_IEA_19 chunk's content?",
       "What is the character length of the 'text' field in chunk BSA_to_IEA_19?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_103\n(1)",
@@ -1416,7 +1416,7 @@
       "What is the value of the 'metadata' field for this chunk?",
       "Are any non-empty fields present besides 'chunk_id' in this chunk (i.e., is either 'text', 'doc_id', or 'metadata' non-empty)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_482",
@@ -1427,7 +1427,7 @@
       "BNSS_to_CrPC_482: What is the character length of the string in the 'text' field?",
       "BNSS_to_CrPC_482: How many top-level keys are present in this chunk's JSON structure?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_183",
@@ -1438,7 +1438,7 @@
       "Are there any notes or exceptions in BNS_to_IPC_183 that indicate non-applicability of certain BNS provisions to IPC?",
       "What is the organizational structure (e.g., table, annex) used in BNS_to_IPC_183 to present the mappings?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_332 (a)",
@@ -1449,7 +1449,7 @@
       "If you were to locate the original text, which code does IPC stand for as suggested by the chunk_id 'BNS_to_IPC_332 (a)'?",
       "What would you search for first in a full text repository to find the material indicated by 'BNS_to_IPC_332 (a)'?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_2(1)(l)",
@@ -1460,7 +1460,7 @@
       "If you needed the full text for CrPC 2(1)(l), which authoritative sources would you consult given the notation in the chunk?",
       "What does the presence of BNSS_to_CrPC_2(1)(l) suggest about how the material should be cross-referenced in a legal brief?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_356 (3)",
@@ -1471,7 +1471,7 @@
       "Which top-level fields besides \"chunk_id\" are present in this JSON structure?",
       "What numeral is enclosed in parentheses in the chunk_id string?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_345 (2)",
@@ -1482,7 +1482,7 @@
       "How should IPC sections be formatted in BNS_to_IPC_345 (2) to ensure consistency across crosswalks (e.g., \"Sec. 302 IPC\" vs \"Section 302 IPC\")?",
       "Propose a simple entry template for BNS_to_IPC_345 (2) that includes an IPC reference, a BNS reference, and a mapping note, with placeholders for concrete values."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_104",
@@ -1493,7 +1493,7 @@
       "Is the metadata field non-empty in this chunk?",
       "What are the top-level keys present in this chunk's JSON object?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_225",
@@ -1504,7 +1504,7 @@
       "How would you determine whether this chunk should include cross-references to specific IPC sections, even though the current text is blank?",
       "Suggest five potential question prompts you would generate for a fully populated BNS_to_IPC_225 chunk, distinguishing them from content-free chunks."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_282",
@@ -1515,7 +1515,7 @@
       "Which fields are present in the input chunk object for BNS_to_IPC_282, and what are their current values?",
       "Given that the text is empty, what approach can ensure the five generated questions remain anchored to chunk BNS_to_IPC_282?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_311",
@@ -1526,7 +1526,7 @@
       "What would be an appropriate heading to indicate a cross-reference from BNSS provisions to CrPC Sec. 311 in a document labeled BNSS_to_CrPC_311?",
       "Outline a minimal structure for BNSS_to_CrPC_311 that includes both BNSS topic headers and a CrPC Sec. 311 cross-reference."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_310 (6)",
@@ -1537,7 +1537,7 @@
       "What keys are present at the top level of this chunk's JSON object, and what are their values?",
       "From the chunk_id 'BNS_to_IPC_310 (6)', which two legal code systems are suggested to be connected by this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_431",
@@ -1548,7 +1548,7 @@
       "How should CrPC citations be formatted within a BNSS_to_CrPC_431 briefing to clearly indicate the crosswalk?",
       "If you were to design an example problem around BNSS_to_CrPC_431, which CrPC-related concept would you center on to ensure a concrete tie to Section 431?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_324",
@@ -1559,7 +1559,7 @@
       "What are the keys contained within the 'metadata' object for this chunk?",
       "If new legal text were to be inserted, which field in this structure would most likely hold it?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_245",
@@ -1570,7 +1570,7 @@
       "Does the chunk specify any defenses, exemptions, or justifications to liability under the indicated section?",
       "Are there any cross-references to other sections of IPC or related statutes within the chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_30",
@@ -1581,7 +1581,7 @@
       "What is the content of the 'metadata' field for the 'BNS_to_IPC_30' chunk?",
       "Are there any section numbers, law titles, or abbreviations present in the actual textual content of the 'BNS_to_IPC_30' chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_131",
@@ -1592,7 +1592,7 @@
       "Is the cross-reference direction in BNS_to_IPC_131 from BNS to IPC, or vice versa?",
       "Given that the text for chunk BNS_to_IPC_131 is empty, what would be a reasonable approach to generate 5 clear questions tied to this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_345 (3)",
@@ -1603,7 +1603,7 @@
       "What does the metadata field contain for this chunk?",
       "List the top-level keys present in this chunk's JSON wrapper."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(11)",
@@ -1614,7 +1614,7 @@
       "Are there any defined terms introduced in BNS_to_IPC_2(11), and if so, what are their definitions?",
       "Does BNS_to_IPC_2(11) enumerate penalties, remedies, or enforcement mechanisms?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(28)",
@@ -1625,7 +1625,7 @@
       "What is the value of the metadata field for this chunk?",
       "Based on the chunk_id BNS_to_IPC_2(28), what kind of cross-reference or mapping would you expect this chunk to represent in a legal data set?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_279",
@@ -1636,7 +1636,7 @@
       "What approach would you take to identify section numbers or law titles associated with BNSS_to_CrPC_279 once the text is populated?",
       "How would you determine whether BNSS_to_CrPC_279 represents an amendment, a cross-reference, or a standalone CrPC provision when the main content is missing?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_92",
@@ -1647,7 +1647,7 @@
       "What is the structure and keys of the metadata object attached to this chunk?",
       "Which abbreviations are embedded in the chunk_id, and what do they refer to in a legal context (e.g., BNS and IPC)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_124",
@@ -1658,7 +1658,7 @@
       "What is the type of the metadata field in BNSS_to_CrPC_124's JSON?",
       "List the top-level keys in BNSS_to_CrPC_124's JSON object."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_326 (a)",
@@ -1669,7 +1669,7 @@
       "Are there any penalties, sanctions, or remedies specified in BNS_to_IPC_326 (a)?",
       "Is there an effective date, commencement, or sunset provision stated in BNS_to_IPC_326 (a)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_110",
@@ -1680,7 +1680,7 @@
       "Is BNSS_to_CrPC_110 meant to indicate a cross-reference between BNSS and CrPC; if yes, which statutes or abbreviations are involved?",
       "What metadata fields should accompany BNSS_to_CrPC_110 and what are the expected values for them?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_249",
@@ -1691,7 +1691,7 @@
       "What is the typical range of penalties that courts consider under IPC 249 for culpable homicide not amounting to murder?",
       "What defenses or extenuating circumstances are commonly argued in cases charged under IPC 249?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_243",
@@ -1702,7 +1702,7 @@
       "Does the BNSS_to_CrPC_243 entry include any data in its \"metadata\" field?",
       "Is the \"text\" field in BNSS_to_CrPC_243 empty?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_441",
@@ -1713,7 +1713,7 @@
       "Does the metadata object contain any keys for this chunk?",
       "Which JSON field would you inspect to find the actual legal prose for this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_387",
@@ -1724,7 +1724,7 @@
       "Does BNSS_to_CrPC_387 contain transitional provisions or enactment dates for its provisions?",
       "Is there any reference in BNSS_to_CrPC_387 to other statutes or cross-references within the CrPC?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_222",
@@ -1735,7 +1735,7 @@
       "Are there any keys present in the 'metadata' object for BNSS_to_CrPC_222?",
       "What is the content of the 'metadata' field for BNSS_to_CrPC_222?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_78",
@@ -1746,7 +1746,7 @@
       "What additional metadata or content would help clarify the intended legal topic for BNSS_to_CrPC_78?",
       "Since the 'text' field is empty, what practical steps would you take to prepare substantive questions from this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_290",
@@ -1757,7 +1757,7 @@
       "What process would you use to ensure any future questions are directly linked to BNSS_to_CrPC_290 when the text is provided?",
       "Propose a plan to generate 5 content-specific questions once the 'text' field contains the relevant law text for BNSS_to_CrPC_290."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_157",
@@ -1768,7 +1768,7 @@
       "In the absence of text, which CrPC sections would be the most logical targets for BNSS_to_CrPC_157 mapping if content were added?",
       "What metadata fields would you expect to accompany BNSS_to_CrPC_157 to enable effective cross-referencing to CrPC provisions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_22",
@@ -1779,7 +1779,7 @@
       "What is the value of the 'doc_id' field for BNSS_to_CrPC_22, and what does an empty doc_id suggest about source-linking to CrPC authorities?",
       "Which metadata fields are present in this chunk entry, and which ones are currently empty or missing?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_377",
@@ -1790,7 +1790,7 @@
       "Does the 'metadata' field contain any keys for this chunk?",
       "How many top-level fields are present in this chunk's JSON structure?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_388",
@@ -1801,7 +1801,7 @@
       "What is contained in the metadata field for BNSS_to_CrPC_388?",
       "How many top-level keys are present in this chunk's JSON object, and what are their names?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_129",
@@ -1812,7 +1812,7 @@
       "What is the content of the 'metadata' field for this chunk?",
       "How many keys does the 'metadata' object contain in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_137 (1)",
@@ -1823,7 +1823,7 @@
       "What are the keys present in the metadata object for this chunk?",
       "Does this chunk include any actual legal text in the text field, or is it empty?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_6",
@@ -1834,7 +1834,7 @@
       "Which keys exist inside the \"metadata\" object for this chunk?",
       "If this chunk later contains legal text, what two legal code identifiers would you expect to reference based on the chunk_id?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_157",
@@ -1845,7 +1845,7 @@
       "If you were to fill this chunk with IPC Section 157 content, what are five subtopics you would prioritize to enable precise questions?",
       "What validation steps would you perform to ensure the chunk_id \"BNS_to_IPC_157\" correctly maps a BNS reference to IPC Section 157 before generating questions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_411",
@@ -1856,7 +1856,7 @@
       "If a Section 411 is referenced in this context, to which Code would it belong according to BNSS_to_CrPC_411?",
       "What metadata would you need to extract or define from BNSS_to_CrPC_411 to generate precise questions once substantive text is provided?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_67",
@@ -1867,7 +1867,7 @@
       "Are there any section numbers, titles, or abbreviations included in BNSS_to_CrPC_67 that should be used for question generation?",
       "What is the intended scope of BNSS_to_CrPC_67 (e.g., rights, procedures, remedies, timelines) for creating questions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_120",
@@ -1878,7 +1878,7 @@
       "Which jurisdiction's criminal procedure rules are typically governed by CrPC, as suggested by this chunk's abbreviation?",
       "If BNSS_to_CrPC_120 were part of a larger cross-reference mapping, what five elements would you expect to be extractable from a complete text?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_100",
@@ -1889,7 +1889,7 @@
       "What is the data type and value of the metadata field in BNSS_to_CrPC_100?",
       "Is there any substantive content present in BNSS_to_CrPC_100 beyond its identifiers?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_404",
@@ -1900,7 +1900,7 @@
       "Which abbreviations or titles (e.g., CrPC, BNSS) would you expect to appear as cross-references within a BNSS_to_CrPC_404 text?",
       "What metadata fields (jurisdiction, act year, effective date) would be essential to attach to the BNSS_to_CrPC_404 chunk to make the questions uniquely answerable?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_87",
@@ -1911,7 +1911,7 @@
       "Which top-level fields (other than 'chunk_id') are present in this chunk's JSON object?",
       "What is the content of the 'metadata' field in the BNSS_to_CrPC_87 chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_188",
@@ -1922,7 +1922,7 @@
       "What is the value of the 'metadata' field in the BNSS_to_CrPC_188 chunk?",
       "How many questions should the llm_questions array contain for this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_20",
@@ -1933,7 +1933,7 @@
       "Is BNSS_to_CrPC_20 intended to cover only CrPC content or also related statutes, case law, or regulations in the BNSS domain when the text is available?",
       "What is the governing jurisdiction for BNSS_to_CrPC_20, and should questions accommodate potential multi-jurisdictional applicability?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_292",
@@ -1944,7 +1944,7 @@
       "What does the metadata field contain for this chunk?",
       "How many questions should the llm_questions array contain for this chunk, according to the instruction?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_268",
@@ -1955,7 +1955,7 @@
       "Which fields are present under \"metadata\" in this chunk's JSON structure?",
       "If the \"text\" and \"metadata\" fields are empty, what does that indicate about the availability of the legal text in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_168",
@@ -1966,7 +1966,7 @@
       "Does the \"metadata\" field exist and what is its value in this chunk?",
       "What does the chunk_id imply about the direction of the mapping (from BSA to IEA) within this dataset?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_55",
@@ -1977,7 +1977,7 @@
       "Is there a 'text' field present in the BNS_to_IPC_55 chunk, and is it currently empty or populated?",
       "What documentation or metadata (besides text) accompanies the BNS_to_IPC_55 chunk, such as doc_id or metadata fields?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_194 (1)",
@@ -1988,7 +1988,7 @@
       "Q4: Propose a procedure to generate five targeted questions once actual statutory text is added to this chunk, ensuring coverage of different legal aspects.",
       "Q5: How can you confirm that questions generated for this chunk remain uniquely tied to it when new content is inserted?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_163",
@@ -1999,7 +1999,7 @@
       "Should the questions reference CrPC provisions (section numbers or titles) once the content is available for BNSS_to_CrPC_163?",
       "Is it acceptable to generate questions about data quality or the mapping purpose of BNSS_to_CrPC_163 given that the text is currently empty?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_52",
@@ -2010,7 +2010,7 @@
       "If BNSS_to_CrPC_52 represents a cross-code mapping, what structural elements would you expect to accompany it (e.g., a table of equivalents, explanatory notes)?",
       "What steps would you take to verify any conclusions drawn from BNSS_to_CrPC_52 once the underlying text is supplied?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_11",
@@ -2021,7 +2021,7 @@
       "How is the \"metadata\" field structured in this chunk (e.g., its keys and values)?",
       "Does the \"text\" field in this chunk contain any legal text?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_4",
@@ -2032,7 +2032,7 @@
       "Does the text of BSA_to_IEA_4 establish a deadline for implementation or compliance?",
       "Are penalties, remedies, or enforcement provisions specified in BSA_to_IEA_4 for non-compliance?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_127 (8)",
@@ -2043,7 +2043,7 @@
       "Which key appears inside the metadata object of the chunk JSON?",
       "How many questions are specified to be generated for this chunk as per the user's instruction?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_45",
@@ -2054,7 +2054,7 @@
       "What is the data type and contents of the metadata field present in this chunk?",
       "Are there any entries within the metadata object for this chunk, and if so, what keys do they contain?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_341 (4)",
@@ -2065,7 +2065,7 @@
       "What does the 'BNS_to_' prefix suggest about the type of data transformation or cross-reference represented in this chunk_id?",
       "Which jurisdiction's statutes would you search to locate the text corresponding to IPC 341 in this chunk_id?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_99",
@@ -2076,7 +2076,7 @@
       "Explain how you would assess whether the chunk's label indicates a cross-reference between codes rather than a standalone provision.",
       "If you could access external databases, what search queries would you use to locate the actual legal text corresponding to BNS_to_IPC_99?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_156",
@@ -2087,7 +2087,7 @@
       "What does the \"metadata\" field contain for this chunk?",
       "If you were to add the main legal content to this chunk, which field would you populate with that content?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_325",
@@ -2098,7 +2098,7 @@
       "List the top-level keys present in the JSON object for this chunk.",
       "What is the value of the 'doc_id' field in this input?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_381",
@@ -2109,7 +2109,7 @@
       "Is the metadata field non-empty for BNSS_to_CrPC_381?",
       "Which fields are present in the BNSS_to_CrPC_381 record?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_35",
@@ -2120,7 +2120,7 @@
       "What keys are present within the \"metadata\" object for this chunk?",
       "Does this chunk contain any substantive legal text to analyze, based on the \"text\" field content?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_3(3)",
@@ -2131,7 +2131,7 @@
       "What fields are present in the metadata for the chunk 'BNS_to_IPC_3(3)', and what are their values?",
       "In the label 'BNS_to_IPC_3(3)', what does the notation 3(3) imply about the structure of this mapping in the data set?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_174",
@@ -2142,7 +2142,7 @@
       "What metadata fields would you want accompanying the empty chunk \"BNS_to_IPC_174\" to support later validation and reconstruction (for example source_abbrev, target_abbrev, source_section, target_section, note)?",
       "Provide a minimal skeleton template for \"BNS_to_IPC_174\" that includes source_abbrev, source_section, target_abbrev, target_section, and description fields."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_336 (4)",
@@ -2153,7 +2153,7 @@
       "What keys exist inside the metadata object for this chunk?",
       "Is the text field of this chunk empty or populated?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_490",
@@ -2164,7 +2164,7 @@
       "What is the value of the 'metadata' field in BNSS_to_CrPC_490?",
       "How many strings should the 'llm_questions' array contain for this chunk, per the user instructions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_299",
@@ -2175,7 +2175,7 @@
       "For chunk_id BNS_to_IPC_299, what is a sensible first step to populate its missing 'text' from primary sources (IPC or BNS references) and why?",
       "If later text is added to chunk_id BNS_to_IPC_299, which concrete legal identifiers (section numbers, law titles, or abbreviations) should be included to make the questions uniquely tied to the content?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_161",
@@ -2186,7 +2186,7 @@
       "What does the metadata field contain for this chunk?",
       "Since the text is empty, what would be a reasonable approach to generating five questions tied to this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_56",
@@ -2197,7 +2197,7 @@
       "What definitions are provided in BSA_to_IEA_56 for terms used in the BSA-IEA cross-reference?",
       "What enforcement mechanism or remedies are described in BSA_to_IEA_56 for non-compliance with the BSA-IEA cross-reference?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_350",
@@ -2208,7 +2208,7 @@
       "If BNSS_to_CrPC_350 adheres to a standard legal-drafting structure, what is the first substantive heading you would expect to see?",
       "When BNSS_to_CrPC_350 prescribes an enforcement mechanism, which CrPC enforcement actor (e.g., police, magistrate) would be implicated and what steps would it entail?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_46",
@@ -2219,7 +2219,7 @@
       "What is the value and state of the 'metadata' field for this chunk (is it an empty object)?",
       "How many top-level keys are present in this chunk's JSON representation?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_42",
@@ -2230,7 +2230,7 @@
       "BNSS_to_CrPC_42: If this chunk maps BNSS provisions to CrPC sections, what specific cross-reference data would you expect to extract from a complete entry (e.g., section numbers, applicability)?",
       "BNSS_to_CrPC_42: What automated validation rule would flag an empty 'text' field and prompt for content retrieval or source linking?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_37",
@@ -2241,7 +2241,7 @@
       "Are any defined terms or abbreviations specified for the BSA_to_IEA_37 cross-reference, and where would they be located?",
       "Should the BSA_to_IEA_37 chunk be interpreted as a standalone provision or as part of a broader section, and what is its intended placement within the larger statute?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_152",
@@ -2252,7 +2252,7 @@
       "Which metadata key is associated with the chunk BNS_to_IPC_152?",
       "If this chunk were to include cross-reference content, which IPC section would it most likely link to (as implied by the chunk_id)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_258",
@@ -2263,7 +2263,7 @@
       "What is the value of the metadata field in this chunk?",
       "List all top-level fields present in this chunk and their corresponding values."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_201",
@@ -2274,7 +2274,7 @@
       "What is the content of the 'metadata' field for this chunk?",
       "Which fields are empty in this chunk and would require data (e.g., 'text', 'doc_id', 'metadata') to form a complete legal text entry?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(16)",
@@ -2285,7 +2285,7 @@
       "What metadata would clarify the relationship implied by BNS_to_IPC_2(16) in a legal corpus?",
       "How would you test for consistency between the chunk_id and any accompanying text when the text is missing?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_376",
@@ -2296,7 +2296,7 @@
       "How can you ensure that each generated question for BNSS_to_CrPC_376 references a specific provision rather than general law concepts, given the text is empty?",
       "Propose a generic five-question template that could be filled with actual CrPC content when BNSS_to_CrPC_376 is populated."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_106",
@@ -2307,7 +2307,7 @@
       "If content were added, which structural elements (sections, subsections, headings) would you expect BNSS_to_CrPC_106 to use for a BNSS to CrPC mapping?",
       "Which abbreviation in BNSS_to_CrPC_106 refers to a procedural code, and what code is it likely?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_264",
@@ -2318,7 +2318,7 @@
       "Does the chunk BNS_to_IPC_264 contain any text referencing sections, titles, or abbreviations, given that its 'text' field is empty?",
       "How many questions are requested to be generated for this chunk in the user\u2019s instruction?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_98",
@@ -2329,7 +2329,7 @@
       "How many top-level keys are present in this chunk's JSON object?",
       "What is the exact value of the chunk_id for this dataset entry?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_2(1)(k)",
@@ -2340,7 +2340,7 @@
       "If you needed to locate the substantive provision referenced by this chunk, which code and section would you most likely search?",
       "Why might a legal document structure references as BNSS_to_CrPC_2(1)(k) instead of a plain citation?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_180",
@@ -2351,7 +2351,7 @@
       "What top-level keys are present in the JSON object for BNSS_to_CrPC_180?",
       "What is the value of the metadata field in the BNSS_to_CrPC_180 chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_352",
@@ -2362,7 +2362,7 @@
       "Which keys are present at the top level of this chunk's JSON structure (e.g., chunk_id, doc_id, text, metadata)?",
       "If you were to include a cross-reference to IPC in this chunk later, which field would you most likely update to record that reference?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_16",
@@ -2373,7 +2373,7 @@
       "What are the precise values for the fields doc_id, text, and metadata in this chunk?",
       "In the chunk_id 'BNS_to_IPC_16', which two abbreviations are visible and what do they imply about the chunk's cross-referential scope?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_67",
@@ -2384,7 +2384,7 @@
       "Is the 'metadata' field currently populated, and if so, what is its content?",
       "List the top-level keys present in the chunk's JSON structure."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_114",
@@ -2395,7 +2395,7 @@
       "Does the \"text\" field of chunk_id \"BNS_to_IPC_114\" contain any substantive content?",
       "How many top-level keys are present in the \"metadata\" field for chunk_id \"BNS_to_IPC_114\"?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_81",
@@ -2406,7 +2406,7 @@
       "What is the value of the 'metadata' field in this JSON chunk?",
       "How many top-level keys exist in this JSON object, and what are their names?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_189 (3)",
@@ -2417,7 +2417,7 @@
       "If this chunk is part of a cross-reference mapping, which two legal systems or codes are being linked according to the chunk_id?",
       "What additional fields would make the chunk id more actionable for automated processing of IPC sections?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_81",
@@ -2428,7 +2428,7 @@
       "Which keys are present inside the 'metadata' object of this chunk?",
       "Based on the chunk_id 'BSA_to_IEA_81', what can you infer about the implied mapping or sequence represented by this identifier?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_354",
@@ -2439,7 +2439,7 @@
       "Which code abbreviation explicitly appears in the chunk_id, indicating a cross-reference to the Indian Penal Code?",
       "What steps would you take to verify that the implied IPC section 354 matches the content expected under a BNS_to_IPC crosswalk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_246",
@@ -2450,7 +2450,7 @@
       "What steps would you take to verify the correct legal content for chunk BNS_to_IPC_246 before generating questions?",
       "If the chunk text is empty, is it acceptable to generate questions about the formatting or structure of the legal document rather than substantive provisions?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_73",
@@ -2461,7 +2461,7 @@
       "What is the value of the 'metadata' field for this chunk?",
       "Which top-level keys are present in the JSON object representing the chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_25",
@@ -2472,7 +2472,7 @@
       "Which agency or official is assigned enforcement or oversight under BSA_to_IEA_25, and what penalties are described for violations?",
       "Are there defined terms in BSA_to_IEA_25 that apply to both BSA and IEA, and how should ambiguities be resolved between them?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_288",
@@ -2483,7 +2483,7 @@
       "Are there any metadata fields present for BNSS_to_CrPC_288 other than chunk_id, doc_id, and text?",
       "Given the identifier BNSS_to_CrPC_288, which two legal codes or acts are indicated to be cross-referenced in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_343",
@@ -2494,7 +2494,7 @@
       "What metadata would help determine the intended content of BNSS_to_CrPC_343 when the 'text' field is empty?",
       "What steps would you take to generate meaningful questions for BNSS_to_CrPC_343 given that the current chunk lacks substantive content?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_274",
@@ -2505,7 +2505,7 @@
       "What is the current value of the metadata field in this chunk?",
       "List the names of all top-level keys in this chunk's JSON object."
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_303",
@@ -2516,7 +2516,7 @@
       "What is the value of the \"metadata\" field in this chunk?",
       "Which law abbreviation is embedded in the chunk_id, indicating the related code (CrPC)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_91",
@@ -2527,7 +2527,7 @@
       "If you were indexing this chunk in a legal database using the chunk_id, how would you classify it (e.g., amendment, cross-reference, transition) and why?",
       "Once the full text becomes available, what concrete provisions (such as section numbers or official titles) should you expect to anchor the five questions to specific parts of the law?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_21",
@@ -2538,7 +2538,7 @@
       "Are any BNSS provisions in BNSS_to_CrPC_21 carved out from CrPC timelines or procedural requirements?",
       "What citation format does BNSS_to_CrPC_21 require when referencing CrPC sections (e.g., CrPC \u00a7 X or Code of Criminal Procedure, X)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_197",
@@ -2549,7 +2549,7 @@
       "Identify any abbreviations present in chunk_id BNS_to_IPC_197 and provide their full forms.",
       "What jurisdiction is implied by the naming convention BNS_to_IPC_197?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_2(2)",
@@ -2560,7 +2560,7 @@
       "How would you structure a cross-reference table using the identifier BNSS_to_CrPC_2(2) as a key?",
       "Given no textual content is present, what is the most logical next step to retrieve the actual text corresponding to BNSS_to_CrPC_2(2)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_65",
@@ -2571,7 +2571,7 @@
       "Is there any data in the metadata field beyond an empty object?",
       "Based on the chunk_id BNSS_to_CrPC_65, which legal code is this fragment associated with?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_197 (1)d",
@@ -2582,7 +2582,7 @@
       "What does the 'metadata' field contain in this chunk?",
       "How many top-level keys are present in the chunk's JSON object (e.g., chunk_id, doc_id, text, metadata)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_32",
@@ -2593,7 +2593,7 @@
       "Which legal-domain abbreviation is implied by the chunk's label (BNS_to_IPC)?",
       "What does the metadata field contain for this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_253",
@@ -2604,7 +2604,7 @@
       "What is the formal name or title suggested by the BNSS_to_CrPC_253 identifier for the combined or transitional text?",
       "Does BNSS_to_CrPC_253 indicate jurisdictional scope (e.g., central vs state) for the BNSS or CrPC, and what is it?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_102",
@@ -2615,7 +2615,7 @@
       "What is the current value of the 'metadata' field for this chunk?",
       "Which top-level fields are present in the JSON snippet for this chunk, and what are their names?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_2(4)",
@@ -2626,7 +2626,7 @@
       "What kind of content would you anticipate under a mapping chunk like BNS_to_IPC_2(4) (e.g., scope, definitions, penalties, exceptions)?",
       "How would you confirm the cross-reference in BNS_to_IPC_2(4) is applicable to a given case or jurisdiction?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_356 (4)",
@@ -2637,7 +2637,7 @@
       "Does the chunk include cross-references to statutes other than the IPC; list any abbreviations that appear.",
       "Is there metadata indicating jurisdiction or law title in the chunk BNS_to_IPC_356 (4); if present, what is it?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_3(1)",
@@ -2648,7 +2648,7 @@
       "What does the \"metadata\" field contain in this JSON object?",
       "Based on the provided JSON, does the chunk include actual legal text suitable for question generation?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_504",
@@ -2659,7 +2659,7 @@
       "Which authorities or roles are identified in BNSS_to_CrPC_504 as responsible for enforcing the provisions, and how are they designated?",
       "What definitions or terms are clarified in BNSS_to_CrPC_504 to aid interpretation under CrPC, and how do they affect applicability?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_297",
@@ -2670,7 +2670,7 @@
       "What are the keys at the top level of the JSON object for chunk BNS_to_IPC_297?",
       "What is the structure and content of the 'metadata' field in this chunk?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_329 (4)",
@@ -2681,7 +2681,7 @@
       "If you were to annotate this chunk with section references, which formatting convention would align with the 'BNS_to_IPC_329 (4)' identifier?",
       "What metadata fields would you expect to pair with the chunk_id 'BNS_to_IPC_329 (4)' to document its source code, target code, and version?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNSS_to_CrPC_457",
@@ -2692,7 +2692,7 @@
       "Does the metadata field contain any entries in this chunk?",
       "Which fields would you inspect to locate the actual legislative content in related chunks?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BSA_to_IEA_2(1)(g)",
@@ -2703,7 +2703,7 @@
       "How can you determine whether the BSA_to_IEA_2(1)(g) cross-reference imposes direct regulatory duties versus serving as interpretive cross-reference?",
       "If you had to draft content for the chunk BSA_to_IEA_2(1)(g) consistent with typical statutory structure, what elements would you include in subsection 2(1)(g) (e.g., definitions, scope, duties, exemptions)?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   },
   {
     "chunk_id": "BNS_to_IPC_188",
@@ -2714,6 +2714,6 @@
       "Is intent required for liability under IPC \u00a7188, or is mere disobedience enough?",
       "What penalties or punishments does IPC \u00a7188 prescribe for disobedience to a duly promulgated order?"
     ],
-    "collection": "collection_map"
+    "collection": "collection-map"
   }
 ]

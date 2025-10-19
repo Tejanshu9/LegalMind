@@ -1,4 +1,4 @@
-#!/home/prince/Desktop/llm-project/LegalMind/LegalMind/venv/bin/python3.12
+#!/Users/tejanshu/Desktop/Projects/llm-project/LegalMind/LegalMind/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
