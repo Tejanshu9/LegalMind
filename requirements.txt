@@ -11,3 +11,4 @@ python-dotenv
 wordcloud
 elasticsearch
 qdrant-client
+sentence-transformers
