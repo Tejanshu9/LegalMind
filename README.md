@@ -111,11 +111,11 @@ git clone git@github.com:Tejanshu9/LegalMind.git
 cd LegalMind/LegalMind
 ```
 2. Start Docker services:
-   ```bash
+```bash
    docker-compose up
-   ```
+```
 3.Run the Streamlit App:
-  ```bash
+```bash
 streamlit run app.py
 ```
 
