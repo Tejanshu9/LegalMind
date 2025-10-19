@@ -10,3 +10,4 @@ hyperopt
 python-dotenv
 wordcloud
 elasticsearch
+qdrant-client
