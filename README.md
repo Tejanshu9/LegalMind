@@ -1,162 +1,118 @@
-Legal Mind
+# Legal Mind 🧾
 
-Legal Mind is an AI-powered legal assistant designed for India’s new criminal justice system. It helps citizens, lawyers, police officers, and judges interact with and understand the new laws effectively.
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.24-orange?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-red)](<live-demo-url>)
 
-📝 Problem Statement
+**Legal Mind** is an AI-powered legal assistant designed for India’s new criminal justice system. It helps citizens, lawyers, police officers, and judges interact with and understand the new laws effectively.  
 
-On July 1, 2024, India implemented a major overhaul of its criminal justice system:
+It bridges the gap between complex legal texts and practical understanding, enabling:
 
-Bharatiya Nyaya Sanhita (BNS) replaced the Indian Penal Code (IPC)
+- Citizens to know their rights and legal procedures  
+- Police officers to navigate updated criminal laws  
+- Lawyers and judges to map old laws to new legislation quickly  
 
-Bharatiya Nagarik Suraksha Sanhita (BNSS) replaced the Code of Criminal Procedure (CrPC)
+By providing RAG-based question answering, hybrid search, and an intuitive dashboard, Legal Mind makes the new criminal justice system accessible to everyone.
 
-Bharatiya Sakshya Adhiniyam (BSA) replaced the Indian Evidence Act (IEA)
+---
 
-The reforms aim to shift the focus from punishment to justice, leveraging modern technology, enhancing victim protection, and streamlining procedures to ensure faster case resolution.
+## 📝 Problem Statement
 
-Legal Mind makes these laws understandable for the general public while providing detailed mappings and references for legal authorities.
+On **July 1, 2024**, India implemented a major overhaul of its criminal justice system:
 
-📂 Dataset
+- **Bharatiya Nyaya Sanhita (BNS)** replaced the **Indian Penal Code (IPC)**  
+- **Bharatiya Nagarik Suraksha Sanhita (BNSS)** replaced the **Code of Criminal Procedure (CrPC)**  
+- **Bharatiya Sakshya Adhiniyam (BSA)** replaced the **Indian Evidence Act (IEA)**  
+
+The reforms aim to **shift the focus from punishment to justice**, leveraging modern technology, enhancing victim protection, and streamlining procedures to ensure faster case resolution.
+
+**Legal Mind** makes these laws understandable for the general public while providing detailed mappings and references for legal authorities. It allows normal citizens to ask questions about new laws while giving legal authorities (police, lawyers, judges) mappings from old laws to new laws.
+
+---
+
+## 📂 Dataset
 
 The dataset includes:
 
-New Laws: BNS.pdf, BNSS.pdf, BSA.pdf
+- **New Laws:** `BNS.pdf`, `BNSS.pdf`, `BSA.pdf`  
+- **Old Laws:** `IPC.pdf`, `CRpC.pdf`, `IEA.pdf`  
+- **Law Mappings:** `BNS_to_IPC.pdf`, `BNSS_to_CRpC.pdf`, `BSA_to_IEA.pdf`  
 
-Old Laws: IPC.pdf, CRpC.pdf, IEA.pdf
+All PDFs are **chunked and processed**:
 
-Law Mappings: BNS_to_IPC.pdf, BNSS_to_CRpC.pdf, BSA_to_IEA.pdf
+- Chunks from mapping PDFs are stored in `mapping_of_laws.json`  
+- Chunks from new laws go into the `newlaws` collection  
+- Chunks from old laws go into the `oldlaws` collection  
 
-All PDFs are chunked and processed:
+The **comparisons** include:
 
-Chunks from mapping PDFs are stored in mapping_of_laws.json
+- BNS → IPC  
+- BNSS → CRpC  
+- BSA → IEA  
 
-Chunks from new laws go into the newlaws collection
+This data is sourced from **BPRD (Bureau of Police Research and Development), Ministry of Home Affairs, Govt. of India**.
 
-Chunks from old laws go into the oldlaws collection
+---
 
-The comparisons include:
+## ⚙️ Features
 
-BNS → IPC
+### RAG-based Question Answering
+- Questions generated using LLM for 20% of chunks from each collection.  
+- Stored as three JSON files:  
+  - `llm_questions_mapping.json`  
+  - `llm_questions_newlaws.json`  
+  - `llm_questions_oldlaws.json`  
+- Each question includes `chunk_id`, 5 generated questions, and source collection.
 
-BNSS → CRpC
+### Search Methods Evaluated
+- **Elastic Search**  
+- **Vector Search**  
+- **Hybrid Search** (chosen as the best performing method with highest hit rate and MRR)
 
-BSA → IEA
+### Prompt Testing
+- Tested 3 different prompts on 200 questions per collection.  
+- Best prompt selected for production.
 
-This data is sourced from BPRD (Bureau of Police Research and Development), Ministry of Home Affairs, Govt. of India.
+### User Interface
+- Built using **Streamlit**  
+- Users can input queries and receive answers  
+- Feedback is collected for every query (query, response, feedback, timestamp)  
+- Dashboard provides analytics on usage and feedback
 
-⚙️ Features
+### Modular Architecture
+- `app.py` calls `generate_rag_answer()` from `rag_flow.py`  
+- `generate_rag_answer()` calls `hybrid_search()` in `search.py`  
+- `hybrid_search()` internally uses `elastic_search()` and `vector_search()`
 
-RAG-based Question Answering:
+---
 
-Questions generated using LLM for 20% of chunks from each collection.
+## 🚀 Quick Start
 
-Stored as three JSON files:
+### Requirements
 
-llm_questions_mapping.json
+All package versions are specified in `Pipfile`. Key dependencies include:
 
-llm_questions_newlaws.json
+- `streamlit`  
+- `pandas`  
+- `flask`  
+- `psycopg2-binary`  
+- `openai`  
+- `scikit-learn`  
 
-llm_questions_oldlaws.json
+---
 
-Each question includes chunk_id, 5 generated questions, and source collection.
+### Running Locally with Docker (Recommended)
 
-Search Methods Evaluated:
+Start Docker services:
 
-Elastic Search
-
-Vector Search
-
-Hybrid Search (chosen as the best performing method with highest hit rate and MRR)
-
-Prompt Testing:
-
-Tested 3 different prompts on 200 questions per collection.
-
-Best prompt selected for production.
-
-User Interface:
-
-Built using Streamlit
-
-Users can input queries and receive answers
-
-Feedback is collected for every query (query, response, feedback, timestamp)
-
-Dashboard provides analytics on usage and feedback
-
-Modular Architecture:
-
-app.py calls generate_rag_answer() from rag_flow.py
-
-generate_rag_answer() calls hybrid_search() in search.py
-
-hybrid_search() internally uses elastic_search() and vector_search()
-
-🚀 Quick Start
-Requirements
-
-All package versions are specified in Pipfile. Key dependencies include:
-
-streamlit
-
-pandas
-
-flask
-
-psycopg2-binary
-
-openai
-
-scikit-learn
-
-Running Locally
-
-Clone the repository:
-
-git clone <repo-url>
-cd LegalMind
-
-
-Start using Docker:
-
+```bash
 docker-compose up
 
 
-Run the Streamlit app:
+### Run the Streamlit App
 
+```bash
 streamlit run app.py
 
-
-Alternatively, access the live preview via the provided link in the repo.
-
-Dataset Location
-
-All PDFs and JSON files are stored in the data/ folder.
-
-🗂️ Notebooks
-
-Chunking PDFs: notebooks/chunking.ipynb
-
-Generate LLM Questions: eval_test_data_generation.ipynb
-
-Search Evaluation: search_eval_test.ipynb
-
-Prompt Testing: prompt_test.ipynb
-
-All test notebooks are available in test_notebooks/.
-
-💡 Summary
-
-Legal Mind provides:
-
-Clear instructions and reproducible environment
-
-Accessible dataset and chunked legal documents
-
-RAG-based AI assistant with hybrid search for best accuracy
-
-Intuitive UI with feedback and analytics
-
-Version-controlled dependencies for easy setup
-
-It is designed to bridge the gap between complex legal documents and everyday understanding, while also serving as a powerful tool for legal professionals.
+## Live Demo:
