@@ -1,4 +1,4 @@
-openai
+openai==0.28.0
 scikit-learn
 pandas
 flask
@@ -9,3 +9,4 @@ ipywidgets
 hyperopt
 python-dotenv
 wordcloud
+elasticsearch
