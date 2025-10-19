@@ -3,6 +3,7 @@ scikit-learn
 pandas
 flask
 psycopg2-binary
+SQLAlchemy
 tqdm
 notebook==7.1.2
 ipywidgets
