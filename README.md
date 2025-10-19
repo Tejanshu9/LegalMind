@@ -42,8 +42,8 @@ The dataset includes:
 All PDFs are **chunked and processed**:
 
 - Chunks from mapping PDFs are stored in `mapping_of_laws.json`  
-- Chunks from new laws go into the `newlaws` collection  
-- Chunks from old laws go into the `oldlaws` collection  
+- Chunks from new laws go into the respective json files  
+- Chunks from old laws go into the respective json files    
 
 The **comparisons** include:
 
