@@ -108,7 +108,9 @@ All package versions are specified in `Pipfile`. Key dependencies include:
 
 ```bash
 git clone git@github.com:Tejanshu9/LegalMind.git
-cd LegalMind/LegalMind
+cd LegalMind
+pip install -r requirements.txt
+cd LegalMind
 ```
 2. Start Docker services:
 ```bash
@@ -116,10 +118,10 @@ docker-compose up
 ```
 3.Run the Streamlit App:
 ```bash
+cd notebooks
 streamlit run app.py
 ```
 
-## LIVE DEMO: [Click Here](https://your-live-demo-link.com)
 
 
 
