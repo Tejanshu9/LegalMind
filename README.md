@@ -108,7 +108,7 @@ All package versions are specified in `Pipfile`. Key dependencies include:
 
 ```bash
 git clone <repo-url>
-cd LegalMind
+cd LegalMind/LegalMind
 ```
 2. Start Docker services:
    ```bash
