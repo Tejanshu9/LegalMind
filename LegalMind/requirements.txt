@@ -1,9 +1,0 @@
-openai
-scikit-learn
-pandas
-flask
-psycopg2-binary
-tqdm
-notebook==7.1.2
-ipywidgets
-hyperopt
