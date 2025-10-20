@@ -28,9 +28,7 @@ On **July 1, 2024**, India implemented a major overhaul of its criminal justice 
 
 The reforms aim to **shift the focus from punishment to justice**, leveraging modern technology, enhancing victim protection, and streamlining procedures to ensure faster case resolution.
 
-**Legal Mind** empowers citizens with a clear and practical understanding of crimes, criminal procedures, and evidentiary rules, ensuring they stay informed and protected from misinformation or misuse of the law.  
-
-Since legal language is often difficult for a normal person to grasp, **Legal Mind** provides simple, structured, and easy-to-understand answers.  
+**Legal Mind** empowers citizens with a clear and practical understanding of crimes, criminal procedures, and evidentiary rules, ensuring they stay informed and protected from misinformation or misuse of the law. Since legal language is often difficult for a normal person to grasp, **Legal Mind** provides simple, structured, and easy-to-understand answers.  
 
 It bridges the gap between complex legal texts and everyday understanding while offering professionals precise mappings from old laws to the new legal framework — making their work faster, more accurate, and effortless when navigating India’s evolving criminal justice system.
 
