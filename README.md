@@ -1,4 +1,4 @@
-# Legal Mind 🧾 - India’s Criminal Law AI Assistant
+# Legal Mind - India’s Criminal Law AI Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.24-orange?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -27,8 +27,7 @@ On **July 1, 2024**, India implemented a major overhaul of its criminal justice 
 
 The reforms aim to **shift the focus from punishment to justice**, leveraging modern technology, enhancing victim protection, and streamlining procedures to ensure faster case resolution.
 
-**Legal Mind** makes these laws understandable for the general public while providing detailed mappings and references for legal authorities. It allows normal citizens to ask questions about new laws while giving legal authorities (police, lawyers, judges) mappings from old laws to new laws.
-
+**Legal Mind** empowers citizens with a clear and practical understanding of crimes, criminal procedures, and evidentiary rules, ensuring they stay informed and protected from misinformation or misuse of the law. Since legal language is often difficult for a normal person to grasp, Legal Mind provides simple, structured, and easy-to-understand answers. It bridges the gap between complex legal texts and everyday understanding while offering professionals precise mappings from old laws to the new legal framework, making their work faster, more accurate, and effortless when navigating India’s evolving criminal justice system.
 ---
 
 ## 📂 Dataset
@@ -58,21 +57,24 @@ This data is sourced from **BPRD (Bureau of Police Research and Development), Mi
 ## ⚙️ Features
 
 ### RAG-based Question Answering
-- Questions generated using LLM for 20% of chunks from each collection.  
+- Questions generated using LLM for 20% of chunks from each collection and for rest using rule based questions generated.  
 - Stored as three JSON files:  
   - `llm_questions_mapping.json`  
   - `llm_questions_newlaws.json`  
   - `llm_questions_oldlaws.json`  
 - Each question includes `chunk_id`, 5 generated questions, and source collection.
+- implemented in test_notebooks/eval_test_data_generation.ipynb
 
 ### Search Methods Evaluated
 - **Elastic Search**  
 - **Vector Search**  
 - **Hybrid Search** (chosen as the best performing method with highest hit rate and MRR)
+- implemented in test_notebooks/search_eval_test.ipynb
 
 ### Prompt Testing
 - Tested 3 different prompts on 200 questions per collection.  
 - Best prompt selected for production.
+- implemented in test_notebooks/prompt_test.ipynb
 
 ### User Interface
 - Built using **Streamlit**  
