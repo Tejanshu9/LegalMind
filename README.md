@@ -5,15 +5,16 @@
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 
-**Legal Mind** is an AI-powered legal assistant designed for India’s new criminal justice system. It helps citizens, lawyers, police officers, and judges interact with and understand the new laws effectively.  
+**Legal Mind**  is an AI-powered legal assistant built for India’s new criminal justice system. It enables citizens, lawyers, police officers, and judges to seamlessly understand and interact with the latest laws.
 
-It bridges the gap between complex legal texts and practical understanding, enabling:
+By translating complex legal texts into clear, practical insights, **Legal Mind**:
 
-- Citizens to know their rights and legal procedures  
-- Police officers to navigate updated criminal laws  
-- Lawyers and judges to map old laws to new legislation quickly  
+* Helps citizens clearly understand crimes, legal procedures, and evidence rules.
+* Guides police officers in effectively applying updated criminal laws.
+* Assists lawyers and judges in quickly mapping old laws to the new legal framework.
 
-By providing RAG-based question answering, hybrid search, and an intuitive dashboard, Legal Mind makes the new criminal justice system accessible to everyone.
+Powered by **RAG-based question answering**, **hybrid search**, and an **intuitive dashboard**, Legal Mind makes India’s new criminal justice system transparent, accessible, and effortless to navigate for everyone.
+
 
 ---
 
