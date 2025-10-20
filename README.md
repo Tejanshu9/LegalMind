@@ -33,6 +33,45 @@ The reforms aim to **shift the focus from punishment to justice**, leveraging mo
 It bridges the gap between complex legal texts and everyday understanding while offering professionals precise mappings from old laws to the new legal framework — making their work faster, more accurate, and effortless when navigating India’s evolving criminal justice system.
 
 ---
+LegalMind/
+├── data/
+│   ├── esdata/
+│   │   └── questions/
+│   │       ├── .DS_Store
+│   │       ├── all-questions.csv
+│   │       ├── bns.json
+│   │       ├── bnss.json
+│   │       ├── bsa.json
+│   │       ├── crpc.json
+│   │       ├── iea.json
+│   │       ├── ipc.json
+│   │       ├── llm_questions_mapping.json
+│   │       ├── llm_questions_newlaws.json
+│   │       ├── llm_questions_oldlaws.json
+│   │       └── mapping_of_laws.json
+│   └── (other data files, if any)
+├── es_data/            # ElasticSearch/OpenSearch/Vector DB data/indices
+├── notebooks/          # Development and utility scripts (where app.py and rag_flow.py reside)
+│   ├── __pycache__/
+│   ├── app.py          # Main Streamlit application entry point
+│   ├── chunking.ipynb  # Notebook for data preparation/text chunking
+│   ├── rag_flow.py     # Core RAG logic (e.g., generate_rag_answer)
+│   └── search.py       # Code for search/retrieval functions
+├── qdrant_storage/     # Storage directory for the Qdrant vector database
+├── test_notebooks/     # Notebooks for evaluation and testing
+│   ├── eval_test_data_generation.ipynb
+│   ├── prompt_test.ipynb
+│   └── search_eval_test.ipynb
+├── venv/               # Python Virtual Environment (ignored by Git)
+│   ├── .env            # Environment variables (credentials, API keys, etc.)
+│   └── (other venv files)
+├── .DS_Store           # macOS file (should be ignored by Git)
+├── .env                # Environment variables (root level)
+├── Pipfile             # Dependency management (if using pipenv)
+├── Pipfile.lock        # Dependency lock file
+├── README.md           # Project overview and documentation (this file)
+├── docker-compose.yml  # Configuration for multi-container Docker setup
+└── requirements.txt    # List of project dependencies for installation
 
 ## 📂 Dataset
 
@@ -133,5 +172,17 @@ streamlit run app.py
 ```
 
 
+## Contributing
+Suggestions, bug reports, and feature requests can be submitted via GitHub issues. Feedback helps improve the project.
+
+---
+
+##Acknowledgments
+
+DataTalks.Club – for the LLM Zoomcamp course structure
+
+BPRD (Bureau of Police Research and Development), Ministry of Home Affairs, Govt. of India – for valuable data and resources
+
+Open-source community – for the excellent tools and frameworks that made this project possible
 
 
