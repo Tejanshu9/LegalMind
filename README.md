@@ -101,6 +101,10 @@ All package versions are specified in `Pipfile`. Key dependencies include:
 - `scikit-learn`  
 
 ---
+### OpenAI API Key
+
+To run this project, you need an OpenAI API key.  
+Add your key to the existing `.env` file .
 
 ### Running Locally with Docker (Recommended)
 
