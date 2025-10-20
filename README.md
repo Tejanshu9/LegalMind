@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.24-orange?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-red)](<live-demo-url>)
+
 
 **Legal Mind** is an AI-powered legal assistant designed for India’s new criminal justice system. It helps citizens, lawyers, police officers, and judges interact with and understand the new laws effectively.  
 
