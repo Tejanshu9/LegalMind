@@ -49,7 +49,7 @@ LegalMind/
 │       ├── llm_questions_newlaws.json
 │       ├── llm_questions_oldlaws.json
 │       └── mapping_of_laws.json
-├── es_data/                # ElasticSearch/OpenSearch/Vector DB data/indices
+├── es_data/                # ElasticSearch indices
 ├── notebooks/              # Development and utility scripts
 │   ├── __pycache__/
 │   ├── app.py              # Main Streamlit application entry point
