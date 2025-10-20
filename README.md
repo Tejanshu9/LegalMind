@@ -72,7 +72,7 @@ This data is sourced from **BPRD (Bureau of Police Research and Development), Mi
 ### Search Methods Evaluated
 - **Elastic Search**  
 - **Vector Search**  
-- **Hybrid Search** (chosen as the best performing method with highest hit rate and MRR)
+- **Hybrid Search with re-rankig of documents** (chosen as the best performing method with highest hit rate and MRR)
 - implemented in test_notebooks/search_eval_test.ipynb
 
 ### Prompt Testing
