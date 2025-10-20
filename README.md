@@ -175,7 +175,7 @@ Suggestions, bug reports, and feature requests can be submitted via GitHub issue
 
 ---
 
-##Acknowledgments
+## Acknowledgments
 
 DataTalks.Club – for the LLM Zoomcamp course structure
 
