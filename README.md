@@ -1,4 +1,4 @@
-# Legal Mind 🧾
+# Legal Mind 🧾 - India’s Criminal Law AI Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.24-orange?logo=streamlit&logoColor=white)](https://streamlit.io/)
