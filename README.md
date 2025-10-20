@@ -136,17 +136,8 @@ The **comparisons** include:
 
 ### Requirements
 
-All package versions are specified in `Pipfile`. Key dependencies include:
 
-- `streamlit`  
-- `pandas`  
-- `flask`  
-- `psycopg2-binary`  
-- `openai`  
-- `scikit-learn`  
-
----
-### OpenAI API Key
+#### OpenAI API Key
 
 To run this project, you need an OpenAI API key.  
 Add your key to the existing `.env` file .
