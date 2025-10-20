@@ -33,6 +33,7 @@ The reforms aim to **shift the focus from punishment to justice**, leveraging mo
 It bridges the gap between complex legal texts and everyday understanding while offering professionals precise mappings from old laws to the new legal framework — making their work faster, more accurate, and effortless when navigating India’s evolving criminal justice system.
 
 ---
+```
 LegalMind/
 ├── data/
 │   ├── esdata/
@@ -69,6 +70,7 @@ LegalMind/
 ├── README.md               # Project overview and documentation (this file)
 ├── docker-compose.yml      # Configuration for multi-container Docker setup
 └── requirements.txt        # List of project dependencies for installation
+```
 
 
 
