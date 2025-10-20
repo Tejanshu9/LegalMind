@@ -36,19 +36,18 @@ It bridges the gap between complex legal texts and everyday understanding while 
 LegalMind/
 ├── data/
 │   ├── esdata/
-│   ├── questions/│   │ 
-│   │       ├── all-questions.csv
-│   │       ├── bns.json
-│   │       ├── bnss.json
-│   │       ├── bsa.json
-│   │       ├── crpc.json
-│   │       ├── iea.json
-│   │       ├── ipc.json
-│   │       ├── llm_questions_mapping.json  
-│   │       ├── llm_questions_newlaws.json
-│   │       ├── llm_questions_oldlaws.json
-│   │       └── mapping_of_laws.json
-│   
+│   └── questions/
+│       ├── all-questions.csv
+│       ├── bns.json
+│       ├── bnss.json
+│       ├── bsa.json
+│       ├── crpc.json
+│       ├── iea.json
+│       ├── ipc.json
+│       ├── llm_questions_mapping.json
+│       ├── llm_questions_newlaws.json
+│       ├── llm_questions_oldlaws.json
+│       └── mapping_of_laws.json
 ├── es_data/               # ElasticSearch/OpenSearch/Vector DB data/indices
 ├── notebooks/             # Development and utility scripts
 │   ├── __pycache__/
@@ -71,6 +70,7 @@ LegalMind/
 ├── README.md              # Project overview and documentation (this file)
 ├── docker-compose.yml     # Configuration for multi-container Docker setup
 └── requirements.txt       # List of project dependencies for installation
+
 
 
 ## 📂 Dataset
